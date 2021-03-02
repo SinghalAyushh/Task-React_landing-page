@@ -1,0 +1,262 @@
+body{
+	margin:0;
+	padding:0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+	color: #fff;
+}
+.section3{
+	position: absolute;
+	top:200vh;
+}
+@media(max-width:434px){
+	.banner .navbar {
+		margin-top: -2% !important;
+	}
+}
+@media(max-width:769px){
+	
+	.section3{
+		position: absolute;
+		top:318vh;
+	}
+}
+@media(max-width:769px){
+	.logo-svg{
+		width: 235px;
+    height: 239px;
+    object-fit: cover;
+    object-position: 50% 50%;
+	position: relative;
+	left:0px !important;
+	top: -82px;
+	}
+	}
+.logo-svg{
+	position: relative;
+    top: -82px;
+    left: 15%;
+}
+
+.banner{
+	height: 100vh;
+	width: 100%;
+	background:url('../img/overlay.png'),url('../img/landing1.jpg'),fixed;
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.banner2{
+	height: 100vh;
+	width: 100%;
+	background:black;
+	background-position: top;
+	background-size:cover;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+}
+.carousel-caption{
+	top:30%;
+	font-weight: 700;
+}
+.main-title{
+	font-size: 4em;
+}
+@media(max-width:530px){
+	.main-title{
+		font-size: 2em;
+	}	
+}
+@media(max-width:800px){
+	.main-title{
+		font-size: 2.7em;
+	}	
+}
+
+.title-txt{
+	font-size: 2em;
+}
+@media(max-width:530px){
+	.title-txt{
+		font-size: 1.2em;
+	}	
+}
+@media(max-width:800px){
+	.title-txt{
+		font-size: 1.6em;
+	}	
+}
+.section-2{
+	margin-top: 2rem;
+	height: 100%;
+	width: 100%;
+	background:url('../img/overlay.jpg'),url('../img/banner.jpg'),fixed;
+	background-position: top;
+	background-size:cover;
+	
+	background-repeat: no-repeat;
+}
+.parent-btn{
+	margin-left: 50%;
+}
+@media(max-width:530px){
+	.parent-btn{
+		margin-left: 10%;
+	}	
+}
+.section4{
+	padding-top: 15px;
+	height:30vh
+}
+@media(max-width:769px){
+	.section4{
+		padding-top: 15px;
+		height:48vh
+	}
+}
+.section-2-sub{
+	margin-top: 2rem;
+	height: 100%;
+	width: 100%;
+
+	background:url('../img/landing1.jpg');
+	background-position: top;
+	background-size:cover;
+	
+	background-repeat: no-repeat;
+}
+
+.section-2-sub::before{
+	content: '';
+    bottom: -25px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    background: linear-gradient(to top,white,transparent);
+}
+.banner2-sub{
+	position: relative;
+    top: 100px;
+    font-size: 2.5em;
+    margin-left: 25px;
+}
+
+.banner .navbar{
+	margin-top:2%;
+}
+.banner .navbar-brand{
+    color: black;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.banner .nav{
+
+		margin-right: 10%;
+		color: black;
+		margin-bottom: 6%;
+		font-weight: 400;
+	}
+
+.banner .nav li a:hover{
+	color: rgb(107, 187, 42);
+}
+
+.banner .nav li a{
+	color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+@media(max-width:1109px){
+	.banner .nav li a{
+	    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+	
+	
+}
+.banner .info{
+	margin-top:15%;
+	transform: translateY(-15%);
+}
+@media (min-width:1380px){
+	.banner .info{
+		margin-top:10%;
+		transform: translateY(-10%);
+	}
+}
+.banner .info h1{
+	font-size: 2.5em;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.banner .info p{
+	font-size: 2em;
+	font-weight: 500;
+	color: #aaa;
+	letter-spacing: 2px;
+}
+@media(max-width:1109px){
+	.banner .info p{
+		font-size: 1em;
+		font-weight: 500;
+		color: #aaa;
+		letter-spacing: 2px;
+	}
+} 
+.banner .info a{
+	margin-left:50%;
+	transform: translateX(-50%);
+	color: #fff;
+	background: #e91d43;
+	padding:10px 20px; 
+	font-size: 1.5em;
+	font-weight: 600;
+}
+@media(max-width:1109px){
+	.banner .info a{
+		margin-left:50%;
+		transform: translateX(-50%);
+		color: #fff;
+		background: #e91d43;
+		padding:10px 20px; 
+		font-size: 1em;
+		font-weight: 600;
+	}
+}
+.banner .info a:hover{
+	background: #e91e63;
+}
+
+
+
+/*Form(login/signup)*/
+
+.form-input{
+	background: inherit;
+    border-radius: 2px solid grey;
+    border: 2px solid white;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+}
+.form-input:focus{
+	background-color: inherit;
+	border: 2px solid #ff0202;
+}
+
+
+.remember{
+	left: -65px;
+    top: -37px;
+    position: relative;
+}
